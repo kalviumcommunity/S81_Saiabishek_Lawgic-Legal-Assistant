@@ -102,4 +102,9 @@ A testing layer ensures reliable answers to queries like *“What does CrPC 154 
 
 ---
 
+## 📄 License  
+MIT License – Built for educational and informational use.  
+⚠️ Not a replacement for certified legal advice.  
+
+
  
