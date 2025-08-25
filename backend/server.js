@@ -11,6 +11,7 @@ import funcallRoute from "./src/routes/funcall.js";
 import cotRoute from "./src/routes/cot.js";
 import systemUserRoute from "./src/routes/systemuser.js";
 import dynamicRoute from "./src/routes/dynamic.js";
+import tokenRoute from "./routes/token.js";
 
 
 
@@ -27,6 +28,7 @@ app.use("/api/funcall", funcallRoute);
 app.use("/api/cot", cotRoute);
 app.use("/api/systemuser", systemUserRoute);
 app.use("/api/dynamic", dynamicRoute);
+app.use("/api/token", tokenRoute);
 
 
 
