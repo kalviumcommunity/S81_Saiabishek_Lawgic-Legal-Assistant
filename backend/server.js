@@ -7,6 +7,8 @@ import dotenv from "dotenv";
 import { zeroShotRoutes } from "./src/routes/zeroshot.js";
 import { oneShotRoutes } from "./src/routes/oneshot.js";  
 import { multiShotRoutes } from "./src/routes/multishot.js";
+import funcallRoute from "./src/routes/funcall.js";
+
 
 
 dotenv.config();
@@ -18,6 +20,8 @@ app.use(bodyParser.json());
 app.use("/api/zeroshot", zeroShotRoutes);
 app.use("/api/oneshot", oneShotRoutes); 
 app.use("/api/multishot", multiShotRoutes);
+app.use("/api/funcall", funcallRoute);
+
 
 
 const PORT = process.env.PORT || 5000;
